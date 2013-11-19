@@ -1,7 +1,10 @@
 startup_message off
+escape ^t^t
 shell "/bin/zsh"
 defscrollback 1000
 verbose on
 caption always '%?%F%{= gW}%:%{= Kk}%?%2n%f%07=%t%='
 hardstatus alwayslastline '%m/%d %02c:%s %{= .g}%H%{-} %L=%-w%45L>%{=u g.}%n %t%{-}%+w %-17<%=%{= .y}(%l)'
 
+bind w windowlist -b
+bind ^w windowlist -b
