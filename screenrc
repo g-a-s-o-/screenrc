@@ -1,6 +1,6 @@
 startup_message off
 escape ^t^t
-shell "/bin/zsh"
+shell "PATH_TO_SHELL"
 defscrollback 1000
 verbose on
 caption always '%?%F%{= gW}%:%{= Kk}%?%2n%f%07=%t%='
